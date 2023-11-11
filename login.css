@@ -1,0 +1,56 @@
+body {
+    background: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    -ms-background-size: 100% 100%;
+    font-family: 'Sansita', sans-serif;
+}
+.form-w3ls {
+     background: #ffffff; 
+     padding: 20px 50px; 
+     width: 35%; 
+     margin: 0 auto; 
+}
+div#signin-agile input[type="text"], div#signin-agile input[type="password"], div#signup-agile input[type="text"], div#signup-agile input[type="email"], div#signup-agile input[type="password"] {
+    padding: 10px;
+    width: 100%;
+    border-bottom: 2px solid #0bbeea;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #212121;
+    text-align: left;
+    outline: none;
+    letter-spacing: 1px;
+    font-size: 16px;
+    margin-top: 0px;
+    margin-bottom: 1em;
+    font-family: Arial !important;
+    font-weight: 600;
+   
+    background: none;
+}
+input:hover {
+    font-family: Arial !important;
+    font-weight: 100 !important;
+    font-size: 16px !important;
+}
+.textarea {
+    width: 100%;
+    border-bottom: 2px solid #0BBEEA;
+    border-left: 2px solid transparent;
+    border-top: 2px solid transparent;
+    border-right: 2px solid transparent;
+    font-family: Arial !important;
+    font-size: 16px !important;
+    margin-bottom: 1em !important;
+    resize: none;
+}
+p{
+    margin: 0px;
+}
